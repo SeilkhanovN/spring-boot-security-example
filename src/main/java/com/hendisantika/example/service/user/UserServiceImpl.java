@@ -11,6 +11,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
+import java.util.List;
 import java.util.Optional;
 /**
  * Created by IntelliJ IDEA.
@@ -46,7 +47,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public Collection<User> getAllUsers() {
+    public List<User> getAllUsers() {
         LOGGER.debug("Getting all users");
         return userRepository.findAll(Sort.by("email"));
     }

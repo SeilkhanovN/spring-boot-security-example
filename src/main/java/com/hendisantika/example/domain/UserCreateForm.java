@@ -1,8 +1,7 @@
 package com.hendisantika.example.domain;
 
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
-
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
 /**
  * Created by IntelliJ IDEA.
  * Project : spring-boot-security-example

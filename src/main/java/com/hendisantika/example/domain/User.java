@@ -1,6 +1,6 @@
 package com.hendisantika.example.domain;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 /**
  * Created by IntelliJ IDEA.
  * Project : spring-boot-security-example
@@ -13,7 +13,7 @@ import javax.persistence.*;
  */
 
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class User {
 
     @Id
